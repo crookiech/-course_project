@@ -8,7 +8,7 @@
                 <Item name="Зелье здоровья" type="Зелье" effect="Восстановление 50 HP"/>
             </Inventory>
         </Character>
-        <Character id="2" class="Маг" level="12" health="80" mana="100">
+        <Character id="2" class="Маг" level="8" health="80" mana="100">
             <Name>Гендальф</Name>
             <Inventory>
                 <Item name="Посох" type="Оружие" damage="15"/>
