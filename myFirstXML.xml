@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Game>
+    <Characters>
+        <Character id="1" class="Рыцарь" level="10" health="100" mana="30">
+            <Name>Артур</Name>
+            <Inventory>
+                <Item name="Меч" type="Оружие" damage="25"/>
+                <Item name="Зелье здоровья" type="Зелье" effect="Восстановление 50 HP"/>
+            </Inventory>
+        </Character>
+        <Character id="2" class="Маг" level="12" health="80" mana="100">
+            <Name>Гендальф</Name>
+            <Inventory>
+                <Item name="Посох" type="Оружие" damage="15"/>
+                <Item name="Зелье маны" type="Зелье" effect="Восстановление 50 MP"/>
+            </Inventory>
+        </Character>
+    </Characters>
+    <Settings difficulty="Средний" soundVolume="50" musicVolume="50"/>
+    <Quests>
+        <Quest id="1" status="В процессе">
+            <Title>Спасти деревню</Title>
+            <Description>Помогите жителям деревни избавиться от гоблинов.</Description>
+        </Quest>
+    </Quests>
+</Game>
